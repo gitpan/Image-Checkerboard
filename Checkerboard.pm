@@ -11,7 +11,7 @@ use Imager;
 use Imager::Fill;
 
 # Version.
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Constructor.
 sub new {
@@ -238,6 +238,14 @@ Image::Checkerboard - Image generator for checkboards.
  # Output:
  # bmp
 
+=begin html
+
+<a href="https://raw.githubusercontent.com/tupinek/Image-Checkerboard/master/images/ex1.png">
+  <img src="https://raw.githubusercontent.com/tupinek/Image-Checkerboard/master/images/ex1.png" alt="Generated image" width="300px" height="300px" />
+</a>
+
+=end html
+
 =head1 DEPENDENCIES
 
 L<Class::Utils>,
@@ -262,10 +270,11 @@ L<http://skim.cz>
 
 =head1 LICENSE AND COPYRIGHT
 
-BSD 2-Clause License
+ © 2012-2014 Michal Špaček
+ BSD 2-Clause License
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
